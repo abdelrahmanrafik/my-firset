@@ -1,0 +1,16 @@
+.cover{
+    width: 50%;
+}
+
+.desc{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 900px) {
+    .cover{
+        width: 80%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+

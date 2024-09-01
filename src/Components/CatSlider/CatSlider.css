@@ -1,0 +1,16 @@
+.slidCat{
+    height: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .slidCat{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .slidCat{
+        height: 200px;
+    }
+}
+

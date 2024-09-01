@@ -1,0 +1,51 @@
+.slides{
+    height: 400px;
+}
+
+.slider{
+    width: 65%;
+}
+
+.blogSide{
+    width: 35%;
+    margin-top: -6px;
+}
+
+.blog{
+    height: 200px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+    .blogSide{
+        width: 100%;
+        padding-top: 45px;
+    }
+
+    .slides{
+        height: auto;
+    }
+
+    .blog{
+        height: auto;
+    }
+}

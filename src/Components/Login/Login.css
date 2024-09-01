@@ -1,0 +1,16 @@
+.link{
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
+
+span{
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+}
+
+form{
+    padding-bottom: 72px;
+}

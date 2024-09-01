@@ -1,0 +1,41 @@
+.icons{
+    margin-right: 10px;
+    vertical-align: baseline;
+}
+
+.allFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.paymentIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer{
+    background-color: #6c757d; /* أو أي لون تريده */
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .allFooter{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paymentIcons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+}

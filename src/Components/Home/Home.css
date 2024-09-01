@@ -1,0 +1,16 @@
+.loader{
+    background-color: #5bad5b;
+}
+
+.inner{
+    background-color:rgb(240, 232, 232);
+}
+
+.cat{
+    color: gray;
+}
+
+.link{
+    text-decoration: none !important;
+}
+
